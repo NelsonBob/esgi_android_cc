@@ -1,5 +1,3 @@
-package stanojevic.app
-
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
@@ -17,7 +15,7 @@ import org.junit.Assert.*
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test.
+        // Context of the com.esgi.app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.esgi", appContext.packageName)
     }
