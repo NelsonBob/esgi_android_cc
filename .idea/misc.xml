@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_calories.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_empty_saved.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14375" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_nav_bar_bookmarks.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_nav_bar_cart.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_nav_bar_stats.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_ranking.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/toolbar.xml" value="0.14375" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/activity_product_item.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/detail.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/food_card.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/fragment_details.xml" value="0.1" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/fragment_product_details.xml" value="0.1" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/fragment_product_details_nutrition.xml" value="0.24926686217008798" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/fragment_product_details_nutritional_values.xml" value="0.1" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/fragment_product_details_summary.xml" value="0.1" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/layout/produit_list_fragment.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/menu/product_details_tabs.xml" value="0.19814814814814816" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

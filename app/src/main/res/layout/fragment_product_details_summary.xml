@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_ranking"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_nav_bar_stats"
+        app:layout_constraintTop_toBottomOf="@id/image1"
+        app:layout_constraintRight_toRightOf="@id/guideline_v2"/>
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="269dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/product_additive"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/image1"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/image1" />
+
+    <TextView
+        android:id="@+id/product_marque"
+        android:layout_width="146dp"
+        android:layout_height="20dp"
+        android:text="@string/product_barcode"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="@id/product_name"
+        app:layout_constraintTop_toBottomOf="@id/product_name" />
+
+    <TextView
+        android:id="@+id/product_barcode"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/product_barcode"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/product_marque"
+        app:layout_constraintTop_toBottomOf="@id/product_marque" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:text="@string/quantity"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/product_barcode"
+        app:layout_constraintTop_toBottomOf="@id/product_barcode" />
+
+    <TextView
+        android:id="@+id/solde_in"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:text="@string/product_title"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/quantity"
+        app:layout_constraintTop_toBottomOf="@id/quantity" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/product_ingredients"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/solde_in"
+        app:layout_constraintTop_toBottomOf="@id/solde_in" />
+
+    <TextView
+        android:id="@+id/allergenic_substances"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/product_substances"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/ingredients"
+        app:layout_constraintTop_toBottomOf="@id/ingredients" />
+
+    <TextView
+        android:id="@+id/additives"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/product_additive"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/allergenic_substances"
+        app:layout_constraintTop_toBottomOf="@id/allergenic_substances" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_nav.xml"
+    app:startDestination="@id/productDetailsSummaryFragment">
+    <fragment
+        android:id="@+id/productDetailsSummaryFragment"
+        android:name="com.esgi.app.ProductDetailsSummaryFragment"
+        android:label="ProductDetailsSummaryFragment" />
+    <fragment
+        android:id="@+id/productDetailsNutritionFragment"
+        android:name="com.esgi.app.ProductDetailsNutritionFragment"
+        android:label="ProductDetailsNutritionFragment" />
+    <fragment
+        android:id="@+id/productDetailsTabFragment"
+        android:name="com.esgi.app.ProductDetailsTabFragment"
+        android:label="ProductDetailsTabFragment" />
+</navigation>
+

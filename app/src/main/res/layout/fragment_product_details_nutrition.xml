@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <TextView
+        android:id="@+id/details_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="details_title"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/ic_matieres_grasses"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_ranking"
+        android:backgroundTint="@color/nutrient_level_low"
+        app:layout_constraintTop_toBottomOf="@id/details_title"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_matieres_grasses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="nutrition_facts_lipids"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/details_title" />
+
+    <View
+        android:id="@+id/ic_acidite"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_ranking"
+        android:backgroundTint="@color/nutrient_level_low"
+        app:layout_constraintTop_toBottomOf="@id/txt_matieres_grasses"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_acidite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="nutrition_facts_fatty_acid"
+        app:layout_constraintStart_toStartOf="@id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/txt_matieres_grasses" />
+
+    <View
+        android:id="@+id/ic_sucre"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_ranking"
+        android:backgroundTint="@color/nutrient_level_low"
+        app:layout_constraintTop_toBottomOf="@id/txt_acidite"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_sucre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="nutrition_facts_carbohydrates"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/txt_acidite" />
+
+    <View
+        android:id="@+id/ic_sel"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_ranking"
+        android:backgroundTint="@color/nutrient_level_low"
+        app:layout_constraintTop_toBottomOf="@id/txt_sucre"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="nutrition_facts_salt"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v1"
+        app:layout_constraintTop_toBottomOf="@id/txt_sucre" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
